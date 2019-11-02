@@ -38,10 +38,12 @@ release                        Create release version
 
 Copyright 2019 ivankatliarhcuk
 
-Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-
-SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
+MIT Licensed. See [LICENSE](./LICENSE) for full details.
 
 ## How to Contribute
 
 Submit a pull request
+
+# Authors
+
+Currently maintained by [Ivan Katliarchuk](https://github.com/ivankatliarchuk) and these [awesome contributors](https://github.com/terraform-module/terraform-module-blueprint/graphs/contributors).
