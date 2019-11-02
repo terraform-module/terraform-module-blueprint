@@ -9,6 +9,10 @@ Here's the gist of using it directly from github.
 
 ```
 
+## Assumptions
+
+## Available features
+
 ## Module Variables
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
