@@ -1,11 +1,12 @@
 # Module Blueprint
+
 Terraform module blueprint
 
 ## Usage example
 
 Here's the gist of using it directly from github.
 
-```terraform
+```hcl
 
 ```
 
