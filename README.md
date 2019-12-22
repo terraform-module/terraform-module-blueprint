@@ -17,8 +17,6 @@ Here's the gist of using it directly from github.
 ## Module Variables
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-## Inputs
-
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
