@@ -16,6 +16,7 @@ Terraform module blueprint
 ![](https://img.shields.io/github/commit-activity/m/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/contributors/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/last-commit/terraform-module/terraform-module-blueprint)
+[![Maintenance](https://img.shields.io/badge/Maintenu%3F-oui-green.svg)](https://GitHub.com/terraform-module/terraform-module-blueprint/graphs/commit-activity)
 
 ## Usage example
 
@@ -39,11 +40,11 @@ Here's the gist of using it directly from github.
 
 <!-- START makefile-doc -->
 ```
-$ make help 
+$ make help
 hooks                          Commit hooks setup
 validate                       Validate with pre-commit hooks
 changelog                      Update changelog
-release                        Create release version 
+release                        Create release version
 ```
 <!-- END makefile-doc -->
 
@@ -61,3 +62,5 @@ Submit a pull request
 # Authors
 
 Currently maintained by [Ivan Katliarchuk](https://github.com/ivankatliarchuk) and these [awesome contributors](https://github.com/terraform-module/terraform-module-blueprint/graphs/contributors).
+
+[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
