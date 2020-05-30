@@ -1,30 +1,25 @@
-# Module Blueprint
+# VMS Module Blueprint
 
-Terraform module blueprint
+VM(s) module Blueprint
 
-[![](https://img.shields.io/github/license/terraform-module/terraform-module-blueprint)](https://github.com/terraform-module/terraform-module-blueprint)
-![](https://img.shields.io/github/v/tag/terraform-module/terraform-module-blueprint)
-[![](https://img.shields.io/github/workflow/status/terraform-module/terraform-module-blueprint/Validator/master)](https://github.com/terraform-module/terraform-module-blueprint/actions?query=is%3Acompleted)
-![](https://github.com/terraform-module/terraform-module-blueprint/workflows/Validator/badge.svg)
-![](https://github.com/terraform-module/terraform-module-blueprint/workflows/Labeler/badge.svg)
-![](https://img.shields.io/issues/github/terraform-module/terraform-module-blueprint)
-![](https://img.shields.io/github/issues/terraform-module/terraform-module-blueprint)
-![](https://img.shields.io/github/issues-closed/terraform-module/terraform-module-blueprint)
-[![](https://img.shields.io/github/languages/code-size/terraform-module/terraform-module-blueprint)](https://github.com/terraform-module/terraform-module-blueprint)
-[![](https://img.shields.io/github/repo-size/terraform-module/terraform-module-blueprint)](https://github.com/terraform-module/terraform-module-blueprint)
-![](https://img.shields.io/github/languages/top/terraform-module/terraform-module-blueprint?color=green&logo=terraform&logoColor=blue)
-![](https://img.shields.io/github/commit-activity/m/terraform-module/terraform-module-blueprint)
-![](https://img.shields.io/github/contributors/terraform-module/terraform-module-blueprint)
-![](https://img.shields.io/github/last-commit/terraform-module/terraform-module-blueprint)
-[![Maintenance](https://img.shields.io/badge/Maintenu%3F-oui-green.svg)](https://GitHub.com/terraform-module/terraform-module-blueprint/graphs/commit-activity)
+[![](https://img.shields.io/github/license/ik-vms-dockers/vms-blueprint)](https://github.com/ik-vms-dockers/vms-blueprint)
+![](https://img.shields.io/github/v/tag/ik-vms-dockers/vms-blueprint)
+[![](https://img.shields.io/github/workflow/status/ik-vms-dockers/vms-blueprint/Validator/master)](https://github.com/ik-vms-dockers/vms-blueprint/actions?query=is%3Acompleted)
+![](https://github.com/ik-vms-dockers/vms-blueprint/workflows/Validator/badge.svg)
+![](https://github.com/ik-vms-dockers/vms-blueprint/workflows/Labeler/badge.svg)
+![](https://img.shields.io/issues/github/ik-vms-dockers/vms-blueprint)
+![](https://img.shields.io/github/issues/ik-vms-dockers/vms-blueprint)
+![](https://img.shields.io/github/issues-closed/ik-vms-dockers/vms-blueprint)
+[![](https://img.shields.io/github/languages/code-size/ik-vms-dockers/vms-blueprint)](https://github.com/ik-vms-dockers/vms-blueprint)
+[![](https://img.shields.io/github/repo-size/ik-vms-dockers/vms-blueprint)](https://github.com/ik-vms-dockers/vms-blueprint)
+![](https://img.shields.io/github/languages/top/ik-vms-dockers/vms-blueprint?color=green&logo=terraform&logoColor=blue)
+![](https://img.shields.io/github/commit-activity/m/ik-vms-dockers/vms-blueprint)
+![](https://img.shields.io/github/contributors/ik-vms-dockers/vms-blueprint)
+![](https://img.shields.io/github/last-commit/ik-vms-dockers/vms-blueprint)
+[![Maintenance](https://img.shields.io/badge/Maintenu%3F-oui-green.svg)](https://GitHub.com/ik-vms-dockers/vms-blueprint/graphs/commit-activity)
 
 ## Usage example
 
-Here's the gist of using it directly from github.
-
-```hcl
-
-```
 
 ## Assumptions
 
@@ -67,10 +62,6 @@ Submit a pull request
 
 # Authors
 
-Currently maintained by [Ivan Katliarchuk](https://github.com/ivankatliarchuk) and these [awesome contributors](https://github.com/terraform-module/terraform-module-blueprint/graphs/contributors).
+Currently maintained by [Ivan Katliarchuk](https://github.com/ivankatliarchuk) and these [awesome contributors](https://github.com/ik-vms-dockers/vms-blueprint/graphs/contributors).
 
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
-
-## Terraform Registry
-
-- [Module](https://registry.terraform.io/modules/terraform-module/todo)
