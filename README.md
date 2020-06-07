@@ -4,8 +4,8 @@ Terraform module blueprint
 
 [![](https://img.shields.io/github/license/terraform-module/terraform-module-blueprint)](https://github.com/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/v/tag/terraform-module/terraform-module-blueprint)
-[![](https://img.shields.io/github/workflow/status/terraform-module/terraform-module-blueprint/Validator/master)](https://github.com/terraform-module/terraform-module-blueprint/actions?query=is%3Acompleted)
-![](https://github.com/terraform-module/terraform-module-blueprint/workflows/Validator/badge.svg)
+[![](https://img.shields.io/github/workflow/status/terraform-module/terraform-module-blueprint/commit-check/master)](https://github.com/terraform-module/terraform-module-blueprint/actions?query=is%3Acompleted)
+![](https://github.com/terraform-module/terraform-module-blueprint/workflows/commit-check/badge.svg)
 ![](https://github.com/terraform-module/terraform-module-blueprint/workflows/Labeler/badge.svg)
 ![](https://img.shields.io/issues/github/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/issues/terraform-module/terraform-module-blueprint)
@@ -17,6 +17,10 @@ Terraform module blueprint
 ![](https://img.shields.io/github/contributors/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/last-commit/terraform-module/terraform-module-blueprint)
 [![Maintenance](https://img.shields.io/badge/Maintenu%3F-oui-green.svg)](https://GitHub.com/terraform-module/terraform-module-blueprint/graphs/commit-activity)
+
+## Documentation
+
+- [TFLint Rules](https://github.com/terraform-linters/tflint/tree/master/docs/rules)
 
 ## Usage example
 
@@ -40,11 +44,10 @@ Error: no lines in file
 
 <!-- START makefile-doc -->
 ```
-$ make help
+$ make help 
 hooks                          Commit hooks setup
 validate                       Validate with pre-commit hooks
-changelog                      Update changelog
-release                        Create release version
+changelog                      Update changelog 
 ```
 <!-- END makefile-doc -->
 
@@ -73,4 +76,4 @@ Currently maintained by [Ivan Katliarchuk](https://github.com/ivankatliarchuk) a
 
 ## Terraform Registry
 
-- [Module](https://registry.terraform.io/modules/terraform-module/todo)
+- [Module](https://registry.terraform.io/modules/terraform-module/todo/aws)
