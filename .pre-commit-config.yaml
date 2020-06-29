@@ -22,7 +22,7 @@ repos:
   - id: terraform_fmt
   - id: terraform_docs
   - id: terraform_tflint
-- repo: git://github.com/smian/pre-commit-makefile
+- repo: https://github.com/smian/pre-commit-makefile.git
   rev: 261f8fb4b31dfdc05d1a1d7fbde1f1462ecde66d
   hooks:
   - id: makefile-doc

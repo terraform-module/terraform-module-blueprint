@@ -4,7 +4,7 @@ on: [push, pull_request, issues]
 
 jobs:
   fmt:
-    name: Code Format
+    name: code-format
     runs-on: ubuntu-latest
     container:
       image: hashicorp/terraform:latest
@@ -14,7 +14,7 @@ jobs:
           terraform fmt --recursive -check=true
 
   docs:
-    name: Pre-Commit-Hook
+    name: pre-commit-hook
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@master

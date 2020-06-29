@@ -1,4 +1,8 @@
-.EXPORT_ALL_VARIABLES:
+SHELL = /bin/bash
+.ONESHELL:
+.SHELLFLAGS := -eu -o pipefail -c
+MAKEFLAGS += --warn-undefined-variables
+MAKEFLAGS += --no-builtin-rules
 
 .PHONY: pre-commit changelog release
 
