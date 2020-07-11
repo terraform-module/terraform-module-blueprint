@@ -17,6 +17,7 @@ Terraform module blueprint
 ![](https://img.shields.io/github/contributors/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/last-commit/terraform-module/terraform-module-blueprint)
 [![Maintenance](https://img.shields.io/badge/Maintenu%3F-oui-green.svg)](https://GitHub.com/terraform-module/terraform-module-blueprint/graphs/commit-activity)
+[![GitHub forks](https://img.shields.io/github/forks/terraform-module/terraform-module-blueprint.svg?style=social&label=Fork)](https://github.com/terraform-module/terraform-module-blueprint)
 
 ## Documentation
 
@@ -44,10 +45,10 @@ Error: no lines in file
 
 <!-- START makefile-doc -->
 ```
-$ make help 
+$ make help
 hooks                          Commit hooks setup
 validate                       Validate with pre-commit hooks
-changelog                      Update changelog 
+changelog                      Update changelog
 ```
 <!-- END makefile-doc -->
 

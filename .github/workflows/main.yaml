@@ -18,9 +18,9 @@ jobs:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@master
-      - name: Install Deps
+      - name: install dependencies
         run: |
           brew install pre-commit terraform-docs terraform tflint
-      - name: Check All Files
+      - name: validate sources
         run: |
           pre-commit run --all-files
