@@ -2,11 +2,12 @@
 
 Terraform module blueprint
 
+![](https://github.com/terraform-module/terraform-module-blueprint/workflows/release/badge.svg)
+![](https://github.com/terraform-module/terraform-module-blueprint/workflows/commit-check/badge.svg)
+![](https://github.com/terraform-module/terraform-module-blueprint/workflows/labeler/badge.svg)
+
 [![](https://img.shields.io/github/license/terraform-module/terraform-module-blueprint)](https://github.com/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/v/tag/terraform-module/terraform-module-blueprint)
-[![](https://img.shields.io/github/workflow/status/terraform-module/terraform-module-blueprint/commit-check/master)](https://github.com/terraform-module/terraform-module-blueprint/actions?query=is%3Acompleted)
-![](https://github.com/terraform-module/terraform-module-blueprint/workflows/commit-check/badge.svg)
-![](https://github.com/terraform-module/terraform-module-blueprint/workflows/Labeler/badge.svg)
 ![](https://img.shields.io/issues/github/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/issues/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/issues-closed/terraform-module/terraform-module-blueprint)
