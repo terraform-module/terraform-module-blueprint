@@ -27,7 +27,7 @@ jobs:
         echo "::set-output name=tag_hash::${GITHUB_SHA::8}"
         echo "::set-output name=changelog::$(git log -1 --pretty=format:"%s")"
 
-    - name: Bump version and push tag
+    - name: bump version and push tag
       uses: anothrNick/github-tag-action@1.22.0
       id: tag
       env:
