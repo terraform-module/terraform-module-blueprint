@@ -1,10 +1,19 @@
-name: commit-check
+---
+name: validator
 # This workflow is triggered on pushes to the repository.
-on: [push, pull_request, issues]
+on: [push, pull_request]
 
 jobs:
+  tflint:
+    name: TFLint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: TFLint
+        uses: docker://wata727/tflint
+
   fmt:
-    name: code-format
+    name: code format
     runs-on: ubuntu-latest
     container:
       image: hashicorp/terraform:latest
@@ -12,7 +21,6 @@ jobs:
       - uses: actions/checkout@master
       - run: |
           terraform fmt --recursive -check=true
-
   docs:
     name: pre-commit-hook
     runs-on: macOS-latest

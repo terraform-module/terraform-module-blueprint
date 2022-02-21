@@ -47,10 +47,9 @@ Error: no lines in file
 
 <!-- START makefile-doc -->
 ```
-$ make help
+$ make help 
 hooks                          Commit hooks setup
-validate                       Validate with pre-commit hooks
-changelog                      Update changelog
+validate                       Validate with pre-commit hooks 
 ```
 <!-- END makefile-doc -->
 
