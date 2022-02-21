@@ -6,7 +6,7 @@ repository:
   name: terraform-module-blueprint
   description: ":information_source: Terraform module blueprint."
   homepage: https://ivankatliarchuk.github.io
-  topics: ivka, terraform, terraform-module
+  topics: ivank, terraform, terraform-module
   private: false
   has_issues: true
   has_projects: false
