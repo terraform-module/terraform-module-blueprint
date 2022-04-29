@@ -5,6 +5,10 @@ on:
     branches: [ master ]
   pull_request:
 
+env:
+  # renovate: datasource=github-releases depName=terraform-linters/tflint
+  TFLINT_VERSION: v0.34.0
+
 jobs:
   tflint:
     runs-on: ${{ matrix.os }}
@@ -26,7 +30,7 @@ jobs:
     - uses: terraform-linters/setup-tflint@v1
       name: Setup TFLint
       with:
-        tflint_version: v0.29.0
+        tflint_version: ${{ env.RENOVATE_CONFIG_FOLDER }}
 
     - name: Show version
       run: tflint --version
