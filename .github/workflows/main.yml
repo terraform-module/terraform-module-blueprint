@@ -1,11 +1,28 @@
 ---
 name: validator
 # This workflow is triggered on pushes to the repository.
-on: [push, pull_request]
+on:
+  pull_request:
+    branches:
+      - main
+      - master
 
 jobs:
-  tflint:
-    name: TFLint
+  collectInputs:
+    name: collect workflow inputs
+    runs-on: ubuntu-latest
+    outputs:
+      directories: ${{ steps.dirs.outputs.directories }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Get root directories
+        id: dirs
+        uses: clowdhaus/terraform-composite-actions/directories@v1.3.0
+
+  tfLint:
+    name: tflint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -21,7 +38,8 @@ jobs:
       - uses: actions/checkout@master
       - run: |
           terraform fmt --recursive -check=true
-  docs:
+
+  preCommit:
     name: pre-commit-hook
     runs-on: macOS-latest
     steps:

@@ -49,15 +49,6 @@ module "blueprint" {
 Error: no lines in file
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-## Commands
-
-<!-- START makefile-doc -->
-```
-$ make help
-hooks                          Commit hooks setup
-validate                       Validate with pre-commit hooks
-```
-<!-- END makefile-doc -->
 
 ### :memo: Guidelines
 
