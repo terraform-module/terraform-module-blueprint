@@ -11,14 +11,21 @@ on:
         description: Is this a pre-release
         required: true
         default: true
+        type: boolean
       publish:
         description: Publish release
         required: false
         default: false
+        type: boolean
       bump:
         description: 'Bumping (#major, #minor or #patch)'
         required: false
         default: patch
+        type: choice
+        options:
+        - 'patch'
+        - 'minor'
+        - 'major'
 
 jobs:
   draft-a-release:

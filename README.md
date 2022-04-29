@@ -46,7 +46,35 @@ module "blueprint" {
 ## Module Variables
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-Error: no lines in file
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1 |
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_variable"></a> [variable](#input\_variable) | defaul,description,type | `string` | `"variable"` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_used"></a> [used](#output\_used) | used value |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 
