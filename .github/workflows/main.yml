@@ -19,7 +19,7 @@ jobs:
 
       - name: Get root directories
         id: dirs
-        uses: clowdhaus/terraform-composite-actions/directories@v1.3.0
+        uses: clowdhaus/terraform-composite-actions/directories@v1.4.1
 
   tfLint:
     name: tflint
