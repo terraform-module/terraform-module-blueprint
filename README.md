@@ -2,9 +2,7 @@
 
 Terraform module blueprint
 
-## Create
-
-[**Create a repository using this template →**][template.generate]
+---
 
 ![](https://github.com/terraform-module/terraform-module-blueprint/workflows/release/badge.svg)
 ![](https://github.com/terraform-module/terraform-module-blueprint/workflows/commit-check/badge.svg)
@@ -23,6 +21,8 @@ Terraform module blueprint
 ![](https://img.shields.io/github/last-commit/terraform-module/terraform-module-blueprint)
 [![Maintenance](https://img.shields.io/badge/Maintenu%3F-oui-green.svg)](https://GitHub.com/terraform-module/terraform-module-blueprint/graphs/commit-activity)
 [![GitHub forks](https://img.shields.io/github/forks/terraform-module/terraform-module-blueprint.svg?style=social&label=Fork)](https://github.com/terraform-module/terraform-module-blueprint)
+
+---
 
 ## Documentation
 
