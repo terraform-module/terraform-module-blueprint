@@ -45,8 +45,6 @@ module "blueprint" {
 
 ## Available features
 
-## Module Variables
-
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
