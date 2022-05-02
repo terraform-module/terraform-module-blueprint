@@ -109,5 +109,9 @@ Currently maintained by [Ivan Katliarchuk](https://github.com/ivankatliarchuk) a
 
 - [Terraform modules](https://registry.terraform.io/namespaces/terraform-module)
 
+## Clone Me
+
+[**Create a repository using this template →**][template.generate]
+
 <!-- resources -->
 [template.generate]: https://github.com/terraform-module/terraform-module-blueprint/generate
