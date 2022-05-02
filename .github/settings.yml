@@ -4,7 +4,7 @@ _extends: .github
 repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
   name: terraform-module-blueprint
-  description: ":information_source: Terraform module blueprint."
+  description: "ℹ️ Terraform module blueprint."
   homepage: https://ivankatliarchuk.github.io
   topics: ivank, terraform, terraform-module
   private: false
