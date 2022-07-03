@@ -43,7 +43,7 @@ module "blueprint" {
 
 See `examples` directory for working examples to reference
 
-- [Complete ECS](https://github.com/terraform-module/module-blueprint/tree/master/examples/)
+- [Examples Dir](https://github.com/terraform-module/module-blueprint/tree/master/examples/)
 
 ## Assumptions
 
