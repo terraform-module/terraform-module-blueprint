@@ -4,9 +4,8 @@ Terraform module blueprint
 
 ---
 
-![](https://github.com/terraform-module/terraform-module-blueprint/workflows/release/badge.svg)
-![](https://github.com/terraform-module/terraform-module-blueprint/workflows/commit-check/badge.svg)
-![](https://github.com/terraform-module/terraform-module-blueprint/workflows/labeler/badge.svg)
+[![linter](https://github.com/terraform-module/terraform-module-blueprint/actions/workflows/linter.yml/badge.svg)](https://github.com/terraform-module/terraform-module-blueprint/actions/workflows/linter.yml)
+[![release.draft](https://github.com/terraform-module/terraform-module-blueprint/actions/workflows/release.draft.yml/badge.svg)](https://github.com/terraform-module/terraform-module-blueprint/actions/workflows/release.draft.yml)
 
 [![](https://img.shields.io/github/license/terraform-module/terraform-module-blueprint)](https://github.com/terraform-module/terraform-module-blueprint)
 ![](https://img.shields.io/github/v/tag/terraform-module/terraform-module-blueprint)
