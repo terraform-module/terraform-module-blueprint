@@ -36,6 +36,7 @@ IMPORTANT: The master branch is used in source just as an example. In your code,
 module "blueprint" {
   source  = "terraform-module/blueprint"
   version = "0.0.0"
+  # insert required variables here
 }
 ```
 
