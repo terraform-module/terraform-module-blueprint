@@ -19,3 +19,13 @@ hooks: ## Commit hooks setup
 
 validate: ## Validate with pre-commit hooks
 	@pre-commit run --all-files
+
+init: ## Test diff
+	@terraform init
+
+format: ## Terraform format
+	@terraform format
+
+cleanup: ## Clean resources
+	@find . -type d -name ".terraform" -prune -exec rm -rf {} \;
+	@find . -type f -name ".terraform.lock.hcl" -prune -exec rm  {} \;
