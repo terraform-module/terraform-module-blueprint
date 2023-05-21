@@ -29,7 +29,9 @@ jobs:
         continue-on-error: true
 
       - name: terraform init
-        run: terraform init
+        run: |
+            terraform version
+            terraform init
 
       - name: terraform validate
         run: terraform validate
